@@ -1,0 +1,27 @@
+			Inner coating machine pcb (ICM)
+ 
+# features :
+
+1-system : 24 volt 
+
+2-    20  inputs circuit(s for : 
+       * 10 proximity sensor  to detect pipes (DIO PINS )
+       * 2  proximity sensor for  homing motors 
+       * 2 proximity sensor for end strock motors  
+       * 1 start switch (DIO PIN )
+       * 1 stop switch ( INT PIN )
+       * 1  reset switch (DIO PIN )
+
+3-   8 outputs circuits for :
+       * 4 for LED tower  (DIO PINS )
+       * 4 for valves  
+
+4-   two seven segment display  by using shift register ic 
+
+5-   Arduino mega pro controller
+
+6-   2 ADC channel for potentiometer to control  motor speed
+
+7-  BUCK Converter module (LM 2596) from 24v DC to 5v DC
+
+8-  terminal blocks for all inputs/outputs  and two stepper motor (nema 23) driver
